@@ -1,0 +1,174 @@
+h1{
+  padding-top:50px;
+  margin-left: 360px;
+}
+p{
+  text-align: justify;
+  padding-top: 50px;
+
+}
+img{
+border-radius: 100%;
+padding-left:40px ;
+height:450px; 
+width:500px;
+}
+.box{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+section {
+margin-left:360px;
+margin-right: 360px;
+}
+section  h1{
+text-align: center;
+padding-top: 55px;
+margin: 0px;
+
+}
+section  .row{
+padding-top:50px ;
+}
+
+section  p{
+padding: 0px;
+margin-bottom: 50px;
+}
+
+section  #c1{
+border-radius: 0px 0px 60px 0px;
+}
+
+section  #c2{
+border-radius: 0px 0px 0px 60px;;
+}
+
+section  #c3{
+border-radius: 0px 60px 0px 0px;
+}
+
+section  #c4{
+border-radius: 60px 0px 0px 0px;
+}
+
+section .card{
+height: max-content;
+padding-bottom: 30px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+section  img{
+height:250px;
+width: 330px;
+
+}
+
+section2  h1{
+text-align: center;
+padding-top: 55px;
+margin: 0px;
+
+}
+
+section2 p{
+text-align: center;
+margin-left: 360px;
+margin-right: 360px;
+padding-top: 10px;
+}
+
+section2 .card{
+align-items: center;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin:0 auto; 
+width: 250px;
+}
+
+section2 .card-title{
+text-align: center;
+text-decoration: bold;
+}
+
+section2 .card img{
+height: 150px;
+width: 150px;
+padding-top: 20px;
+}
+
+section2 .card .card-text{
+color:#4DD3F5;
+}
+
+
+@media (max-width: 480px){
+  .box{
+    flex-direction: column-reverse;
+
+  }
+h1{
+  text-align: center;
+  margin-left: 0px;
+}
+p{
+  text-align: justify;
+  padding-top: 20px;
+}
+img{
+  border-radius: 100%;
+  padding: 0px;
+  height: 300px;
+  width: 300px;
+  margin-left:50px ;
+  }
+
+  section {
+    margin:10px;
+    }
+    section  h1{
+    text-align: center;
+    padding-top: 55px;
+    margin: 0px;
+    }
+    section  img{
+      height:250px;
+      width: 300px;
+      float: center;
+      }
+    
+      section .card{
+        height: max-content;
+        padding-bottom: 30px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        margin-bottom:20px;
+        }
+
+        section  img{
+          height:250px;
+          width: 330px;
+          display: none;
+          }
+
+section2 .card{
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      width: 200px;
+      padding-bottom: 10px;
+      }
+
+        
+      section2 p{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 10px;
+        }
+        section2 .card{
+          align-items: center;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          margin:0 auto; 
+          width: 250px;
+          margin-bottom: 20px;
+          }
+}
